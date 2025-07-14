@@ -6,8 +6,7 @@ A fully responsive **eBook landing page** built using **HTML** and **CSS**, desi
 
 ## 🌐 Live Demo
 
-[🔗 View Project Online](https://netlify.com)  
-_(Replace with GitHub Pages or Netlify link)_
+[🔗 View Project Online](https://elaborate-rabanadas-ccb45a.netlify.app/)
 
 ---
 
