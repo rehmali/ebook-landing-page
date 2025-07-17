@@ -21,7 +21,8 @@
     <!-- Google Fonts ended -->
   </head>
   <body>
-    <main role="main">
+    <!-- Main Page -->
+    <main role="main" class="main">
       <header role="banner">
         <div class="container">
           <img
@@ -211,8 +212,74 @@
       </footer>
     </main>
 
-    <!-- Creating a Modal -->
-    <div class="modal"></div>
+    <!-- Creating a Modal for Sign in -->
+    <div class="modal-Sign-In hidden" role="sign-in">
+      <div class="modal-content">
+        <div class="btn-close-signin" type="button">❌</div>
+        <div class="Sign-In--ebook">
+          <img src="images/sign-in-arrow.png" alt="Sign In" />
+          <p>EBOOK</p>
+          <img
+            src="images/sign-in-hero.png"
+            alt="Women reading a Book"
+            class="sign-in-hero-Img"
+          />
+        </div>
+        <div class="form-content">
+          <form method="POST" enctype="text/plain" class="Sign-In--form">
+            <h1 class="h1">User Login</h1>
+            <div class="input-wrapper mg">
+              <img src="images/signIn-user.png" alt="sign in user" />
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-wrapper mg">
+              <img src="images/signIn-password.png" alt="Enter Password" />
+              <input type="password" placeholder="Password" />
+            </div>
+            <div class="log-in-sec mg">
+              <a href="#" class="forget-password">Forget Passwrod?</a>
+              <button
+                class="btn-sign-in btn"
+                type="button"
+                aria-label="Sign In button"
+              >
+                login
+              </button>
+            </div>
+          </form>
+          <div class="form-social-media">
+            <p>or Login With</p>
+            <img src="images/sign-in-gmail.png" alt="Email" / width="90px">
+            <img
+              src="images/sign-in-Facebook.png"
+              alt="Facebook"
+              width="90px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MOdal for free trial button -->
+    <div class="modal-free-trail hidden">
+      <div class="modal-free-trial-head">
+        <h2 class="modal-trial-heading">Free Trial Coming Soon!</h2>
+        <span class="btn-close-free-trial">❌</span>
+      </div>
+
+      <div class="modal-free-trial-body">
+        <p>
+          We are working hard to bring you an amazing 30-day free trial
+          experience. Stay tuned for updates and get ready to enjoy books,
+          magazines, and audiobooks anywhere, anytime!
+        </p>
+      </div>
+
+      <div class="modal-free-trial-footer">
+        <button class="btn btn-ok" type="button">Okay, Got It!</button>
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>

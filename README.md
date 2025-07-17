@@ -1,6 +1,6 @@
 # 📚 Ebook Landing Page
 
-A fully responsive **eBook landing page** built using **HTML** and **CSS**, designed to showcase a digital reading platform offering books, magazines, audiobooks, and documents.
+A fully responsive **eBook landing page** built using **HTML** and **CSS** and JS, designed to showcase a digital reading platform offering books, magazines, audiobooks, and documents.
 
 ---
 

@@ -1,0 +1,224 @@
+/* .modal-Sign-In {
+  border: 3px solid red;
+} */
+.modal-Sign-In .modal-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 40px; */
+  /* border: 5px solid green; */
+}
+/* For close button */
+.btn-close-signin {
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  right: 70px;
+  z-index: 999;
+}
+
+.btn-close-signin:hover {
+  cursor: pointer;
+}
+/* Left side Card */
+.modal-content .Sign-In--ebook {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Right side card */
+
+.form-content .Sign-In--form {
+  font-size: 0.9rem;
+  background-color: #d9f7d8;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-right: 15px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.258),
+    -3px -3px 5px rgba(128, 128, 128, 0.258);
+}
+.Sign-In--form .mg {
+  margin-top: 20px;
+}
+.input-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+.input-wrapper img {
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+.input-wrapper input {
+  width: 100%;
+  padding: 20px 20px 15px 40px;
+  background-color: #aecbb4;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+}
+.form-content .form-social-media {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 12px;
+  font-weight: 800;
+  text-align: center;
+}
+.form-content .form-social-media img:hover {
+  cursor: pointer;
+}
+.log-in-sec {
+  font-size: 1rem !important;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+/* Resizing images */
+.Sign-In--ebook img {
+  width: 80px;
+}
+.Sign-In--ebook .sign-in-hero-Img {
+  width: 200px;
+  margin-top: -40px;
+}
+.Sign-In--form img {
+  width: 20%;
+}
+
+.form-social-media img {
+  width: 40px;
+}
+
+/* ***************/
+/****Media Queries**/
+/*************** */
+/* for laptops and desktops */
+
+@media screen and (min-width: 480px) {
+  .modal-Sign-In {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    min-height: 100vh;
+  }
+  .modal-Sign-In .modal-content {
+    max-width: 500px;
+    width: 100% !important;
+    gap: 0.3rem;
+    min-height: 100vh;
+
+    margin: 0 auto;
+  }
+
+  /* Left side Card */
+  .modal-content .Sign-In--ebook {
+    gap: 2.5rem;
+  }
+
+  /* Right side card */
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-content .Sign-In--form {
+    font-size: 1.1rem;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 50px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  /* 
+  .Sign-In--form .mg {
+  margin-top: 20px;
+} */
+  .input-wrapper input {
+    width: 100%;
+    background-color: #aecbb4;
+    border-radius: 30px;
+    padding-left: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* .modal-Sign-In {
+    /* min-height: 100vh; */
+  /* width: 100%; */
+  /* border: 3px solid green;
+ } */
+
+  .modal-Sign-In .modal-content {
+    /* width: 90%; */
+    max-width: 800px;
+    gap: 2rem;
+    margin: 0 auto;
+  }
+
+  /* Check */
+
+  /* Left side Card */
+  .modal-content .Sign-In--ebook {
+    gap: 3rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  /* Right side card */
+  .form-content .Sign-In--form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.9rem;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 60px;
+    margin-bottom: 20px;
+  }
+
+  .Sign-In--form .mg {
+    margin-top: 30px;
+  }
+  .input-wrapper input {
+    width: 100%;
+    background-color: #aecbb4;
+    border-radius: 40px;
+    padding-left: 70px;
+    font-size: 1.5rem;
+  }
+
+  /* Resizing images */
+  .Sign-In--ebook img {
+    width: 120px;
+  }
+  .Sign-In--ebook .sign-in-hero-Img {
+    width: 300px;
+    margin-top: -60px;
+  }
+  .Sign-In--form img {
+    width: 20%;
+  }
+  .form-social-media {
+    font-size: 1.5rem !important;
+  }
+  .form-social-media img {
+    width: 70px;
+  }
+}

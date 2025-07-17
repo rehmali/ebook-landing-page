@@ -1,3 +1,5 @@
+@import url(signIn.css);
+
 /*********************
 /****** Custom CSS*******
 ********************/
@@ -413,4 +415,71 @@ a {
     justify-content: space-around;
     width: 100%;
   }
+}
+
+/*  */
+
+/* ****** *********/
+/* Visibility */
+/* ************ */
+
+.hidden {
+  display: none !important;
+  z-index: 0;
+}
+
+.transition {
+  transition: all 10s ease-in;
+}
+
+/* ************************** */
+/* Code for Free Trial Modal */
+/* ************************ */
+
+.modal-free-trail {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  gap: 3rem;
+  width: 470px;
+  max-width: 100%;
+  align-items: center;
+  /* padding: 20px; */
+  border-radius: 6px;
+  box-shadow: 5px 5px 30px gray;
+  z-index: 10000;
+}
+.modal-free-trial-head {
+  background-color: #929292;
+  display: flex;
+  gap: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 6px;
+}
+.modal-trial-heading {
+  color: #f1f1f1;
+}
+.modal-free-trial-body {
+  padding-left: 30px;
+}
+.btn-ok {
+  margin-bottom: 20px;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.653);
+  z-index: 999;
+}
+
+.btn-close-free-trial:hover {
+  cursor: pointer;
 }
