@@ -11,6 +11,14 @@ const modalCloseBTN = document.querySelector(".btn-close-free-trial");
 
 const modalRemoveBTN = document.querySelector(".btn-ok");
 
+const btn = document.querySelector(".hamburger");
+const menu = document.querySelector(".footer-nav");
+
+btn.addEventListener("click", () => {
+  const isOpen = menu.classList.toggle("is-open");
+  btn.setAttribute("aria-expanded", String(isOpen));
+});
+
 /**************** */
 /**** Functions ***/
 /**************** */
